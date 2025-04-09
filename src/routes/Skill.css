@@ -1,0 +1,17 @@
+.skill-control{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 5rem auto;
+    background-color:#0e1217;
+    padding: 4rem;
+    border-radius: 5px;
+    box-shadow: -4px -4px 3px #ffffff20,
+                3px   3px  3px #0000004e;
+}
+
+.colum{
+    margin-bottom: 1rem;
+    border-bottom: 2px solid black;
+    max-width: 300px;
+}

@@ -1,0 +1,27 @@
+.port-colum{
+    display: flex;
+    justify-content:space-around;
+    margin: 5rem auto;
+}
+
+
+.card-control{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    text-align: center;
+    align-items: center;
+    background-color: #0e1217;
+    border-radius: 15px;
+    box-shadow: -4px -4px 3px #ffffff20,
+                3px   3px  3px #0000004e;
+
+}
+
+.card-control img{
+    width: 350px;
+    height: 200px;
+}
+
