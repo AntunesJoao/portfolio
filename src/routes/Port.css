@@ -24,3 +24,14 @@
     height: 200px;
 }
 
+.btn-port{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .2;
+    opacity: 1;
+}
+
+.btn-port:hover{
+    opacity: .3;
+}
