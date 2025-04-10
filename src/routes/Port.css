@@ -35,3 +35,15 @@
 .btn-port:hover{
     opacity: .3;
 }
+
+@media (max-width: 500px){
+
+  .port-colum{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    gap: 2rem;
+  }
+}
+
+

@@ -46,3 +46,18 @@
     opacity: 0.4;
     color: rgb(186, 10, 10) ;
 }
+
+
+@media (max-width: 500px){
+    .contact-control{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 4rem;
+        gap:20px;
+    }
+    .container{
+        width: 300px;
+        margin: 0 auto;
+        display: flex;
+    }
+  }

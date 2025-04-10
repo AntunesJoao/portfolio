@@ -8,6 +8,7 @@ import { FaSquareInstagram } from "react-icons/fa6";
 const Contact = () => {
   const [copiarEmail, setCopiarEmail] =useState(false)
   const [copiarNumero, setCopiarNumero] =useState(false)
+  const [copiarInsta, setCopiarInsta] =useState(false)
   const email = "antunesjoao@gmail.com"
   const numero = "+55 (92) 985094020"
   const insta =  "jantuness98" 
@@ -30,6 +31,15 @@ const Contact = () => {
       console.error("Error ao copiar", err)
     }
   }
+  const handleInsta = async() =>{
+    try{
+      await navigator.clipboard.writeText(insta)
+      setCopiarInsta(true)
+      setTimeout(() =>setCopiarInsta(false), 1000)
+    }catch(err){
+      console.error("Error ao copiar", err)
+    }
+  }
 
   return (
     <div className="contact-control">
@@ -46,7 +56,7 @@ const Contact = () => {
       <div className="container">
         <FaSquareInstagram className="cont" />
         <p>{insta}</p>
-        <button type="submit" className="btn">Copy</button>
+        <button onClick={handleInsta} className="btn">{copiarInsta ? "Copiado!" : "Copiar"}</button>
       </div>
     </div>
   );

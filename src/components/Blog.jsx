@@ -41,20 +41,15 @@ const Blog = ({setShow}) => {
             const data =  response.data           
             setPost(data)
         } catch(error){
-            console.log(error)
-        }
-    }
+            console.log(error)}}
     useEffect(() =>{
-        getPost()
-    }, )
+        getPost()}, )
   return (
     <div className='post-container'>
         {!post.title ? (<p>Carregando...</p>) : (<div className='post'>
             <h2>{post.title}</h2>
             <p>{post.body}</p> </div>) }
-    </div>
-  )
-}`}
+    </div>)}`}
                 </SyntaxHighlighter>
               </div>
             </div>

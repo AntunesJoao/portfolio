@@ -38,7 +38,6 @@ const bodyParser = require("body-parser");
 const app = express();
 app.use(cors());
 app.use(bodyParser.json());
-
 app.post("/usuarios", (req, res) => {
   const { nome } = req.body;
   const sql = "INSERT INTO usuarios (nome) VALUES (?)";
@@ -46,13 +45,9 @@ app.post("/usuarios", (req, res) => {
     if (err) {
       res.status(500).send("Erro ao inserir usuário");
     } else {
-      res.status(201).send("Usuário inserido com sucesso");
-    }
-  });
-});
+      res.status(201).send("Usuário inserido com sucesso");}});});
 app.listen(5000, () => {
-  console.log("Servidor rodando na porta 5000");
-});`}
+  console.log("Servidor rodando na porta 5000");});`}
                     </SyntaxHighlighter>
                   </div>
                 </div>

@@ -15,5 +15,11 @@
     gap: 1rem;
 }
 
+@media (max-width: 500px){
+    .nav-control{
+        font-size: 11px;
+    }
+}
+
 
 
