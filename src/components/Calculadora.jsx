@@ -1,4 +1,4 @@
-import Calculado from '../img/Calculado.png'
+import calculado from '../img/calculado.png'
 
 import { BsXLg } from "react-icons/bs";
 
@@ -16,7 +16,7 @@ const Calculadora = ({setShow}) => {
               </button>
             </div>
             <div className="fundo-card-control">
-              <img src={Calculado} alt="foto card" />
+              <img src={calculado} alt="foto card" />
               <div className="descrica">
                 <h3>Tecnologias utilizadas:</h3>
                 <ul>
