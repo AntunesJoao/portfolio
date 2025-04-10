@@ -47,6 +47,7 @@
 
   .card-control{
     width: 375px;
+    margin: 0 auto;
     font-size: 1rem;
   }
 }
