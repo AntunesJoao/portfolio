@@ -1,5 +1,6 @@
 import "./Skill.css";
 
+
 import { IoLogoHtml5 } from "react-icons/io";
 import { FaCss3Alt } from "react-icons/fa6";
 import { RiJavascriptFill } from "react-icons/ri";
@@ -9,6 +10,10 @@ import { FaGitAlt } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaPython } from "react-icons/fa";
 import { FaAngular } from "react-icons/fa6";
+import { FaJava } from "react-icons/fa6";
+
+
+
 
 const Skill = () => {
   return (
@@ -25,6 +30,8 @@ const Skill = () => {
         <FaGitAlt size={100} color="rgb(223, 78, 50)" />
         <FaSquareGithub size={100} color="black"/>
         <FaPython size={100} color="rgb(208, 255, 0)" />
+        <FaJava size={100} />
+        
       </div>
     </div>
   );
