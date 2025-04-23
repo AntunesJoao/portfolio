@@ -19,8 +19,8 @@
     height: 350px;
     border-radius: 50%;   
     object-fit: cover;
-    box-shadow: 100px 50px 0 8px #b0b7c3;
-    border: 3px solid #b0b7c3;
+    box-shadow: 100px 50px 0 8px #70747c;
+    border: 3px solid #2a2e34;
 }
 
 @media (max-width: 768px) {    

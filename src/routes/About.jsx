@@ -5,17 +5,14 @@ const About = () => {
   return (
     <div className='about-control'>
       <h1>Resumo</h1>
-      <p>Sou João Antunes, desenvolvedor de software sem experiência profissional na área como desenvolvedor, 
-        mas com alguns projetos realizados com sucesso. Meus principais projetos incluem um blog, um gerador de QRcode,
-        um site onde o user pode abrir um chamado pela web, IMC, Jogo da Cobrinha e o jogo do Dinossauro.
+      <p>Meu nome é João Antunes, sou desenvolvedor de software em início de carreira, com experiência prática adquirida por meio de projetos pessoais bem-sucedidos.
+       Atualmente, estou cursando Bacharelado em Sistemas de Informação pela FAMETRO. Para complementar minha formação acadêmica, busco constantemente aprimorar meus
+       conhecimentos por meio de cursos online e estudos autodidatas. 
         </p>
-      <p>Atualmente estou cursando Sistema de Informação pela FAMETRO. E para aperfeiçoar meus o que aprendo na faculdade,
-        eu estudo por cursos online. Já fui estagiário da Fametro e estagiario da Click IP como telemarkting, onde eu consegui
-        desenvolver minha comunicação.
+      <p>Tive experiências como estagiário na FAMETRO e também na empresa Click IP, atuando na área de telemarketing. Essas vivências contribuíram significativamente
+         para o desenvolvimento das minhas habilidades de comunicação e trabalho em equipe.
         </p>
-      <p>Minhas competências incluem Python, Node.js, Bootstrap, React, Angular, HTML, CSS, Javascript, MySQL e Git.
-        Atulmente estou focando meu aprendizado em aplicações Web e em breve estarei me dedicando em Back-End começando pelo Java.
-        Estou sempre buscando novas oportunidades para aplicar e ampliar meu conhecimento.</p>  
+      <p>Sou uma pessoa proativa, dedicada e sempre em busca de novas oportunidades que me permitam aplicar e expandir meu conhecimento na área de tecnologia.</p>  
     </div>
   )
 }
