@@ -61,12 +61,6 @@ const Port = () => {
           {show.blog && <Blog setShow = {setShow}/>}
         </div>
 
-        <div className="card-control">
-          <h2>Calculadora de IMC</h2>
-          <img src={Calculadorahome} alt="Foto do projeto" />
-          <button className="btn-port" onClick={() => setShow(prev =>({...prev, calculadora: !prev.calculadora}))}><p>Ver mais</p></button>
-          {show.calculadora && <Calculadora setShow ={setShow}/>}
-        </div>
       </div>
 
       <div className="port-colum">
@@ -89,6 +83,16 @@ const Port = () => {
           <img src={HdhostHome} alt="Foto do projeto" />
           <button className="btn-port"onClick={() => setShow(prev =>({...prev, Hdhost: !prev.Hdhost}))}><p>Ver mais</p></button>
           {show.Hdhost && <Hdhost setShow={setShow}/>}
+        </div>
+      </div>
+
+      <div className="port-colum">
+
+      <div className="card-control">
+          <h2>Calculadora de IMC</h2>
+          <img src={Calculadorahome} alt="Foto do projeto" />
+          <button className="btn-port" onClick={() => setShow(prev =>({...prev, calculadora: !prev.calculadora}))}><p>Ver mais</p></button>
+          {show.calculadora && <Calculadora setShow ={setShow}/>}
         </div>
       </div>
     </div>
