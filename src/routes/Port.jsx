@@ -9,6 +9,8 @@ import GLPI from "../img/GLPI.png";
 import Cobrinha_foto from "../img/Cobrinha_foto.png";
 import HdhostHome from "../img/HdhostHome.png";
 
+import fotomongo from "../img/fotomongo.png"
+
 //componentes
 import QRcode from "../components/QRcode";
 import Blog from "../components/Blog"
@@ -16,6 +18,7 @@ import Calculadora from "../components/Calculadora";
 import Chamados from "../components/Chamados";
 import Cobrinha from "../components/Cobrinha"
 import Hdhost from "../components/Hdhost";
+import Mongo from "../components/Mongo"
 
 
 const Port = () => {
@@ -26,18 +29,28 @@ const Port = () => {
     chamados: false,
     cobrinha: false,
     Hdhost: false,
+    mongo: false,
   });
 
   return (
     <div className="port-control">
       <div className="port-colum">
+
+        <div className="card-control">
+          <h2>Projeto fullstack com MongoDB Atlas</h2>
+          <img src={fotomongo} alt="Foto do projeto" />
+          <button className="btn-port" onClick={() => setShow(prev =>({...prev, mongo: !prev.mongo}))}>
+            <p>Ver mais</p>
+          </button>
+          {show.mongo && <Mongo setShow ={setShow}/>}
+        </div>
+
         <div className="card-control">
           <h2>Gerador de QRcode</h2>
           <img src={QRHome} alt="Foto do projeto" />
           <button className="btn-port" onClick={() => setShow(prev =>({...prev, qrcode: !prev.qrcode}))}>
             <p>Ver mais</p>
           </button>
-
           {show.qrcode && <QRcode setShow ={setShow}/>}
         </div>
 
