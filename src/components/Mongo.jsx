@@ -40,10 +40,7 @@ const Hdhost = ({ setShow }) => {
              name,
              store,
              number,
-             src,
-           },
-         ],
-       });
+             src,},],});
      //Enviando para o banco de dados Mongoose Atlas
      await newMemory.save()
      res.json({msg: "Criado com sucesso", newMemory})

@@ -29,7 +29,7 @@ const Hdhost = ({ setShow }) => {
                             Um projeto fullstack onde o usuário faz um cadastro e é enviado para o banco de dados.
                             Na tela de login, caso o user já tenha um cadastro com os campos preenchidos corretamente,
                             é feito uma requisição para o banco para verificar se consta no banco de dados o cadastro.
-                            Utilizei uma biblioteca do js para criptografar a senha do usuário. 
+                            
                         </p>
                     </div>
                     <div className="code">
@@ -40,19 +40,16 @@ const Hdhost = ({ setShow }) => {
         if(!email || !password){
             return res.status(400).json ({msg: "Por favor, preencher todos os campos"})
         }
-        //procurar usuário por email
         const user = await cadastre.findOne({email}
         if(!user){
             return res.status(404).json({msg: "Usuário não encontrado"})
         }
             console.log("Senha armazenada:", user.password);
-        // Comparar a senha informada com a senha criptografada no banco
         const isPasswordCorrect = await bcrypt.compare(password, user.password);
         if (!isPasswordCorrect) {  
             return res.status(401).json({ msg: "Senha incorreta." });
         }
-
-        res.json({ msg: "Login bem-sucedido." });
+        
     `}
                         </SyntaxHighlighter>
                     </div>
