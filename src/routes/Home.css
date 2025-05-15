@@ -9,6 +9,20 @@
     
 }
 
+.typewriter{
+    white-space: nowrap;
+    overflow:hidden;
+    border-right: 2px solid aqua;
+    animation: typing 2s steps(30, end) forwards, blink 0.9s step-end infinite;
+}
+ @keyframes typing {
+      from { width: 0 }
+      to { width: 12ch }
+    }
+  @keyframes blink {
+      50% { border-color: transparent }
+    }
+
 .img-control{
     max-width: 500px;
     text-align: center;
