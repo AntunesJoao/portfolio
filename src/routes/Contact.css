@@ -32,13 +32,14 @@
 }
 
 .btn{
-    width: 80px;
-    height: 30px;
+    width: auto;
+    height: auto;
+    padding: 10px;
     cursor: pointer;
     background-color: rgb(10, 11, 11);
     border: none;
     border-radius: 3px;
-    transition: 1s;
+    transition: .3s;
     font-family: Blinker;
     color: aqua;
     
