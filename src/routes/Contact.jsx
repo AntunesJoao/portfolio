@@ -9,7 +9,7 @@ const Contact = () => {
   const [copiarEmail, setCopiarEmail] =useState(false)
   const [copiarNumero, setCopiarNumero] =useState(false)
   const [copiarInsta, setCopiarInsta] =useState(false)
-  const email = "antunesjoao@gmail.com"
+  const email = "antunesjoao81@gmail.com"
   const numero = "+55 (92) 985094020"
   const insta =  "jantuness98" 
 
