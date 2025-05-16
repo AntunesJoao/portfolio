@@ -20,15 +20,8 @@
     padding: 0.5rem;
     border-radius: 5px;
     transition: 1s;
-  
-    
     box-shadow: -4px -4px 3px #ffffff20,
                 3px   3px  3px #0000004e;
-}
-
-.container:hover{
-    box-shadow: 0 0 3px 2px rgb(158, 179, 192);
-      transform: scale(1.2);
 }
 
 .btn{
