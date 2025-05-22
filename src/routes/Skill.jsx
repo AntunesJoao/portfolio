@@ -9,7 +9,7 @@ import { FaNode } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaPython } from "react-icons/fa";
-import { FaAngular } from "react-icons/fa6";
+
 import { FaJava } from "react-icons/fa6";
 
 
@@ -23,7 +23,7 @@ const Skill = () => {
         <FaCss3Alt size={100} color="blue" />
         <RiJavascriptFill size={100} color="yellow" />
         <IoLogoReact size={100} color="cyan" />
-        <FaAngular size={100} color="red" />
+       
       </div>
       <div className="colum">
         <FaNode size={100} />

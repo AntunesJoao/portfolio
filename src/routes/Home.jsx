@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div className="main">
       <div className="info">
-        <p>Óla, eu sou</p>
+        <p>Olá, eu sou</p>
         <h1 className="typewriter">João Antunes</h1>
         <p>Desenvolvedor de software apaixonador
           por criar sites <br></br> e experiências interativas na web </p>
