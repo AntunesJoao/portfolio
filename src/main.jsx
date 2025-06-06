@@ -10,7 +10,6 @@ import About from "./routes/About.jsx";
 import Contact from "./routes/Contact.jsx";
 import Port from "./routes/Port.jsx";
 import Skill from "./routes/Skill.jsx";
-import Certificados from "./routes/Certificados.jsx";
 
 const router = createBrowserRouter([
   {
@@ -35,10 +34,6 @@ const router = createBrowserRouter([
       {
         path: "/Skill",
         element: <Skill />,
-      },
-      {
-        path: "/Certificados",
-        element: <Certificados />,
       },
     ],
   },

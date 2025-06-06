@@ -22,9 +22,6 @@ const Nav = () => {
           <Link to={"/Port"}>Portifolio</Link>
         </li>
         <li>
-          <Link to={"/Certificados"}>Certificados</Link>
-        </li>
-        <li>
           <Link to={"/Contact"}>Contato</Link>
         </li>
       </ul>
