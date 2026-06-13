@@ -4,25 +4,28 @@ import "./About.css";
 const About = () => {
   return (
     <div className="about-control">
-      <h1>Resumo</h1>
+      <h1>Sobre mim</h1>
       <p>
-        Meu nome é João Antunes, sou desenvolvedor de software em início de
-        carreira, com experiência prática adquirida por meio de projetos
-        pessoais bem-sucedidos. Atualmente, estou cursando Bacharelado em
-        Sistemas de Informação pela Fametro. Para complementar minha formação
-        acadêmica, busco constantemente aprimorar meus conhecimentos por meio de
-        cursos online e estudos autodidatas.
+        Sou João Antunes, um desenvolvedor de software focado em criar soluções
+        eficientes e escaláveis. Atualmente cursando Sistemas de Informação
+        Construí minha base técnica desenvolvendo projetos práticos que exigem
+        não apenas código que funciona, mas código bem estruturado aplicando
+        princípios como Clean Code, Programação Orientada a Objetos (POO) e
+        Design Patterns.
       </p>
       <p>
-        Tive experiências como estagiário na Fametro e também na empresa Click
-        IP, atuando na área de telemarketing. Essas vivências contribuíram
-        significativamente para o desenvolvimento das minhas habilidades de
-        comunicação e trabalho em equipe.
+        Minha trajetória profissional inclui passagens pela Click IP. A
+        experiência lidando diretamente com o público no atendimento me deu um
+        diferencial importante: sei me comunicar, trabalhar em equipe e traduzir
+        as necessidades reais do usuário para a tecnologia. Hoje, aplico essa
+        visão desde a lógica no back-end com Python até a construção de
+        interfaces modernas com ferramentas.
       </p>
       <p>
-        Sou uma pessoa proativa, dedicada e sempre em busca de novas
-        oportunidades que me permitam aplicar e expandir meu conhecimento na
-        área de tecnologia.
+        Seja desenvolvendo plataformas educacionais, como meu recente projeto de
+        diário digital para estudantes, ou explorando novas ferramentas e
+        arquiteturas, estou sempre em busca de oportunidades onde eu possa gerar
+        impacto e continuar evoluindo.
       </p>
     </div>
   );

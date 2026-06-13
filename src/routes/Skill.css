@@ -12,9 +12,13 @@
 
 .colum{
     margin-bottom: 1rem;
+    margin-left: 0;
     border-bottom: 2px solid black;
     max-width: 300px;
 }
 
+.colum img{
+    margin: 0 5px;
+}
 
 

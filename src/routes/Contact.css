@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     justify-self: center;
-    width: 100%;
+    width: 80%;
     margin-top: 10rem;
 }
 
@@ -43,6 +43,10 @@
     color: rgb(186, 10, 10) ;
 }
 
+.contact-control-main{
+   width: 100%;
+   
+}
 
 @media (max-width: 500px){
     .contact-control{
