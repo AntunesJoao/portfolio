@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import "./comentario.css";
+import "./Comentario.css";
 const Comentario = () => {
   const form = useRef();
 
